@@ -71,6 +71,7 @@ const getAllChatrooms = () => {
 }
   useEffect(() => {
     getAllChatrooms();
+    // eslint-disable-next-line
   }, []);
 
 
