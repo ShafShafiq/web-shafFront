@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  font-family: Montserrat;
+  box-sizing: border-box;
+  color: #433939;
+}
+
+body {
+  font-size: 16px;
+}
+
+.card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+  padding: 1rem;
+  position: relative;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 25vw;
+  transform: translate(-50%, -50%);
+}
+
+.cardHeader {
+  background: #a599ea;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2px;
+  text-transform: uppercase;
+  transform: skew(-10deg);
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  top: -1rem;
+  left: -0.75rem;
+  color: #fff;
+
+}
+
+.cardBody {
+  margin-top: 2rem;
+}
+
+.inputGroup {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-size: 0.9rem;
+}
+
+input {
+  border: none;
+  padding: 0.5rem 0.1rem;
+  width: 100%;
+  border-radius: 2px;
+  border-bottom: 1px solid #eeeeee;
+  transition: all 0.5s;
+  
+}
+
+input:focus {
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  background: #a599ea;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2px;
+  width: 100%;
+  text-transform: uppercase;
+  color: #fff;
+}
+button:hover {
+  background: #8e7dd3;
+  cursor: pointer;
+ 
+ 
+  transform: skew(-10deg);
+ 
+}
+
+
+.chatrooms {
+  margin-top: 1rem;
+}
+
+.chatroom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.join {
+  background: #8e7dd3;
+  padding: 0.25rem 1rem;
+  border-radius: 2px;
+}
+.join:hover {
+  background: #a599ea;
+  cursor: pointer;
+  transform: skew(-10deg);
+}
+
+
+
+
+
+
+.navbar {
+  background-color: #8e7dd3; /* Update background color here */
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar a {
+  color: #fff; /* Update text color here */
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #cac4e9; /* Update hover color here */
+}
+#logout-button{
+  background-color: #ed2a2a;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#logout-button.hover{
+  background-color: #f5a777;
+  cursor: pointer;
+  transform: skew(-10deg);
+}
+.translator{
+padding-top: 1rem;
+padding-bottom: 2rem;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-bottom: 1rem;
+
+}
+
+
+.selectors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+.selectors select {
+  margin-left: 10px;
+  padding: 2px;
+  border-radius: 4px;
+  
+  
+}
+
+.selectors select:focus {
+  outline: none;
+  border: 1px solid #8e7dd3;
+}
+
+.selectors select option {
+  background-color: white;
+  color: black;
+}
+
+.selectors select option:hover {
+  background-color: #a599ea;
+  color: white;
+}
+#translatorheading{
+  
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: #8e7dd3;
+  border-radius: 20px;
+}
+
