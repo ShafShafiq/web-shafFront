@@ -31,7 +31,7 @@ export default function DashboardPage(props) {
   const createChatroom = () => {
     console.log("chatroomname ===== "+chatroomname)
     axios
-      .post('http://localhost:4000/chatroom/make', {
+      .post('https://web-shaf.herokuapp.com/chatroom/make', {
         name: chatroomname,
       }, {
         headers: {
@@ -53,7 +53,7 @@ const [chatrooms, setChatrooms] = useState([]);
 // props.setupSocket();
 
 const getAllChatrooms = () => {
-  axios.get("http://localhost:4000/chatroom/all",{
+  axios.get("https://web-shaf.herokuapp.com/chatroom/all",{
     headers: {
       Authorization: "Bearer " + localStorage.getItem("C_token"),
     },

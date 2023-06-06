@@ -150,7 +150,7 @@ export default function RegisterPage() {
     }
 
     axios
-      .post('http://localhost:4000/users/signup', {
+      .post('https://web-shaf.herokuapp.com/users/signup', {
         name,
         email,
         password,
