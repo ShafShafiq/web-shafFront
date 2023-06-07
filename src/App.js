@@ -42,7 +42,8 @@ function App() {
   const setupSocket = () => {
     const token = localStorage.getItem("C_token");
     if (token && !socket) {
-      const newSocket = io("http://localhost:4000", {
+      //changed for Deployment
+      const newSocket = io("https://web-shaf.herokuapp.com/", {
         query: {
           token: localStorage.getItem("C_token"),
         },
