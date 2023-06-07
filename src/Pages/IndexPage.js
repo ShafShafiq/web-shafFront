@@ -12,7 +12,7 @@ useEffect(() => {
     navigate('/dashboard')
   }
 
-
+  // eslint-disable-next-line
 }, [])
 
   return (
