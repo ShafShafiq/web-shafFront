@@ -64,6 +64,7 @@ function App() {
 
   React.useEffect(() => {
     setupSocket();
+    // eslint-disable-next-line
   }, []);
   console.log("socket ===== "+socket)
 

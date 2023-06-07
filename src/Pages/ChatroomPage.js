@@ -1,6 +1,6 @@
 import React from 'react'
 import {useParams} from 'react-router-dom'
-import { useLocation } from 'react-router-dom';
+// import { useLocation } from 'react-router-dom';
 
 
 
@@ -142,7 +142,7 @@ React.useEffect(() => {
   //eslint-disable-next-line
 }, []);
 
-let num = 0
+// let num = 0
 
 
   return (
