@@ -43,7 +43,7 @@ function App() {
     const token = localStorage.getItem("C_token");
     if (token && !socket) {
       //changed for Deployment
-      const newSocket = io("https://web-shaf.herokuapp.com/", {
+      const newSocket = io("https://web-shaf.herokuapp.com", {
         query: {
           token: localStorage.getItem("C_token"),
         },
